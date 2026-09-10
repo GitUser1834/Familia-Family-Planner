@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Familia is a simple family planning dashboard.">
+  <title>Familia — Family planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <a class="brand" href="#dashboard"><span class="brand-mark">F</span><span>Familia</span></a>
+      <p class="nav-label">Your family</p>
+      <nav id="desktop-nav" aria-label="Main navigation"></nav>
+      <div class="sidebar-bottom">
+        <a id="settings-nav" class="nav-link" href="#settings"><span>⚙</span><span>Settings</span></a>
+        <div class="account"><span id="account-avatar" class="avatar avatar-parent">JD</span><div><strong id="account-name">Jamie Doe</strong><small id="account-role">Parent account</small></div></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div id="app-view"></div>
+    </main>
+
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation"></nav>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
